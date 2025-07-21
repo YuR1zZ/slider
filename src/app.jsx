@@ -10,8 +10,8 @@ gsap.registerPlugin(SplitText)
 const App = () => {
   return (
     <div>
-      <h1 className="text-blue-500 text-3xl flex-center">
-        APP
+      <h1 className= "text-3xl flex-center">
+        App
       </h1>
     </div>
   )
