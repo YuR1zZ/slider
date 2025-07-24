@@ -13,7 +13,7 @@ const allCocktails = [
 	image: "/images/drink2.png",
 	title: "the Real Trol",
 	description:
-	 "bro is literally playing for other team. mouse in hand but locking in in cooldown , Throwing matches like a ball except no one's playing with you after.",
+	 "bro is literally playing for other team. mouse in hand but locking in in cooldown , Throwing matches like a ball except no one's playing with you after. most random thing is that he's planting opium.",
  },
  {
 	id: 3,
