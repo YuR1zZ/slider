@@ -29,7 +29,7 @@ const allCocktails = [
 	image: "/images/drink4.png",
 	title: "Great Rifler",
 	description:
-	 "bro is the best rifler i've ever seen (for enemy team).when bro spray i can hear the birds scream. ngl he's good with AWP like shoot close with awp and long with pistol oh man i love playing with him especially when we're in other maps except dd2 and mirage.only good thing about him is his utility usage(0% use - 100% spend money on utils)",
+	 "bro is the best rifler i've ever seen (for enemy team).when bro spray i can hear the birds scream. ngl he's good with AWP like shoot close with awp (misses) and long with pistol(also miss). oh man i love playing with him especially when we're in maps except dd2 and mirage. only good thing about bro is his utility usage(0% use - 100% spend money on utils)",
  },
 ];
 
