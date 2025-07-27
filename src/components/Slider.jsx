@@ -17,9 +17,14 @@ const Slider = () => {
 
 
   return (
-    <section className='w-full relative md:mt-40 mt-0 2xl:px-0 px-5 py-20'>
+    <section id='menu'>
+
+        <img src='/images/arrow-left.png' className='scale-75'/>
+        <img src='/images/arrow-right.png' className='scale-75'/>
         
-        <nav className='grid grid-cols-2 relative gap 10 mb-20 z-10 md:grid-cols-4 md:gap-20 sm:mb-32 md:max-w-6xl md:mx-auto'>
+        <nav className='retard-tabs'
+        aria-label='Cocktail Navigation'
+        >
 
             {Retards.map((retard,index)=>{
               const isActive = index === currentIndex;
@@ -27,14 +32,25 @@ const Slider = () => {
               return(
                 <button 
                 key={retard.id}
-                className={`${isActive? 'text-white border-white':'text-white/50 border-white/50'}`}
+                className={`relative group flex items-center justify-center pb-2 pt-2 cursor-pointer transition-colors ${isActive? 'text-white' : "text-white/50"}`}
                 onClick={()=>goToSlide(index)}
                 >
+                <span
+                className={`absolute right-0 top-0 h-[1px] bg-white-0 transition-all duration-300
+                ${isActive ? "w-full bg-white-100" : "w-0 group-hover:w-full bg-white/50"}`}
+                ></span>
+
                   {retard.name}
+
+                <span
+                className={`absolute left-0 bottom-0 h-[1px] bg-white-0 transition-all duration-300
+                ${isActive ? "w-full bg-white-100" : "w-0 group-hover:w-full bg-white/50"}`}
+                ></span>
                 </button>
               )
             })}
         </nav>
+
 
     </section>
   )
