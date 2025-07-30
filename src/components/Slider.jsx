@@ -113,11 +113,11 @@ const Slider = () => {
         <div className='content'>
             <div className='arrows'>
                 <button className='text-left' onClick={()=>goToSlide(currentIndex - 1)}>
-                    <span className='text-xl'>{prevRetard.name}</span>
+                    
                     <img src='/images/arrow-left.png' alt='right-arrow' className='scale-80' aria-hidden='true'/>
                 </button>
                 <button className='text-left' onClick={()=>goToSlide(currentIndex + 1)}>
-                    <span className='text-xl'>{nextRetard.name}</span>
+                    
                     <img src='/images/arrow-right.png' alt='left-arrow' className='scale-80' aria-hidden='true'/>
                 </button>
             </div>
